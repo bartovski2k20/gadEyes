@@ -1,3 +1,1 @@
-document.addEventListener('keydown', function(){
-    alert('hello')
-});
+alert('hello')
