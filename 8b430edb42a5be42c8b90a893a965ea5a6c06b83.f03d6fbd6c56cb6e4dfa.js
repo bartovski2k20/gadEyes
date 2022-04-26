@@ -251,7 +251,7 @@
             e.zoom = a,
             e.currentZoomIcon = "zoomOut",
             e.input.on("wheel", (function(t, i, n, a, s) {
-                e.isMoving || (a < 0 ? v(e, e.zoom * r*5) : a > 0 && v(e, e.zoom / (r*5)))
+                e.isMoving || (a < 0 ? v(e, e.zoom * r*100) : a > 0 && v(e, e.zoom / (r*100)))
             }
             ))
         }
